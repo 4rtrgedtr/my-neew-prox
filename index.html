@@ -1,0 +1,2 @@
+<input id="u">
+<button onclick="fetch('/proxy?url='+document.getElementById('u').value).then(r=>r.text()).then(d=>document.body.innerHTML=d)">Go</button>
